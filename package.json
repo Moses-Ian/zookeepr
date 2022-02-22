@@ -4,9 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js",
-	"dev": "nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,13 @@
     "url": "https://github.com/Moses-Ian/zookeepr/issues"
   },
   "homepage": "https://github.com/Moses-Ian/zookeepr#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "jest": {
+	"verbose": true
   }
 }
